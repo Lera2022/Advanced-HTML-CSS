@@ -19,8 +19,7 @@ summary::-webkit-details-marker {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    color: $colorText;
+    font-family: 'latoblack';
 }
 
 a {
@@ -240,6 +239,7 @@ a {
         line-height: 16px;
     }
     &__text {
+        font-family: 'latolight';
         color: #5D5D5D;
         font-size: 14px;
         font-style: normal;

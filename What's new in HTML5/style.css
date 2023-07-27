@@ -1,3 +1,7 @@
+body {
+    padding-top: 100px;
+}
+
 .dsc {
     font-size: 20px;
     padding: 10px;
@@ -5,16 +9,27 @@
 
 .dsc-1 {
     background-color: gold;
+    position: fixed;
+    bottom: 0;
 }
 
 .dsc-2 {
     background-color: pink;
-    position: relative;
-    top: 30px;
+    /* position: absolute;
+    top: 240px;
     /* left: -1000px; */
-    bottom: 0;
+    /* bottom: 0; 
+    left: 30%;
+    right: 30%; */
 }
 
 .dsc-3 {
     background-color: aqua;
+    /* width: 100px;
+    height: 100px;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-60%, -95%); */
 }
