@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.box__text {
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-shadow: -0 -3px 1px #2AC9B1, 0 -3px 1px #2AC9B1, -0 3px 1px #2AC9B1, 0 3px 1px #2AC9B1, -3px -0 1px #2AC9B1, 3px -0 1px #2AC9B1, -3px 0 1px #2AC9B1, 3px 0 1px #2AC9B1, -1px -3px 1px #2AC9B1, 1px -3px 1px #2AC9B1, -1px 3px 1px #2AC9B1, 1px 3px 1px #2AC9B1, -3px -1px 1px #2AC9B1, 3px -1px 1px #2AC9B1, -3px 1px 1px #2AC9B1, 3px 1px 1px #2AC9B1, -2px -3px 1px #2AC9B1, 2px -3px 1px #2AC9B1, -2px 3px 1px #2AC9B1, 2px 3px 1px #2AC9B1, -3px -2px 1px #2AC9B1, 3px -2px 1px #2AC9B1, -3px 2px 1px #2AC9B1, 3px 2px 1px #2AC9B1, -3px -3px 1px #2AC9B1, 3px -3px 1px #2AC9B1, -3px 3px 1px #2AC9B1, 3px 3px 1px #2AC9B1, -3px -3px 1px #2AC9B1, 3px -3px 1px #2AC9B1, -3px 3px 1px #2AC9B1, 3px 3px 1px #2AC9B1;
+}
+
+.box {
+    width: 350px;
+    height: 250px;
+    border: 1px solid #000;
+}
+
+.r1 {
+    border-radius: 0 0 20px 20px;
+    border-top-left-radius: 40px;
+}
+
+.r2 {
+    border-radius: 0 10px 20px;
+}
+
+.r3 {
+    border-radius: 10px 20px;
+}
+
+.r4 {
+    border-radius: 100px/20px;
+}
+
+.r5 {
+    border-radius: 50px 100px 15px 30px/30px 15px 10px 5px;
+}
+
+.r6 {
+    border-radius: 100px 20px 30px 40px/30px;
+}
+
+.r7 {
+    border-radius: 50%;
+}
+
+.r8 {
+    border-top: none;
+    border-bottom: none;
+    border-radius: 30px/90px;
+}
+
+.r9 {
+    border-bottom-left-radius: 100px;
+}
+
+.r10 {
+    border-radius: 0 100%;
+}
+
+.r11 {
+    border-radius: 0 50% 50% 50%;
+}
+
+.r12 {
+    border-top-left-radius: 100% 20px;
+    border-bottom-right-radius: 100% 20px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 100px 100px;
+    border-color: transparent transparent darkred transparent;
+}
+
+.content {
+    background-color: #ccc;
+    min-height: 700px;
+}
+
+.menu {
+    /* height: 50px;
+    background-color: #555; */
+    position: sticky;
+    /* top: 0; */
+    width: 20%;
+    top: 20%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.main {
+    margin-left: 30%;
+}
+
+.parallax {
+    min-height: 350px;
+    background-image: url(https://img.freepik.com/free-photo/blue-foaming-waves-in-north-beach-in-nazare-portugal_1268-15934.jpg?size=626&ext=jpg&ga=GA1.1.886357741.1690532070&semt=sph);
+    background-attachment: fixed;
+}
+
+.item {
+    height: 400px;
+    background-color: #ccc;
+}
+
+.item1 {
+    clip-path: circle(150px at 50px 200px);
+    background-image: url(https://img.freepik.com/free-photo/blue-foaming-waves-in-north-beach-in-nazare-portugal_1268-15934.jpg?size=626&ext=jpg&ga=GA1.1.886357741.1690532070&semt=sph);
+}
+
+.item2 {
+    clip-path: ellipse(130px 140px at 20% 30%);
+}
+
+.item3 {
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.item4 {
+    clip-path: polygon(50% 10%, 12% 100%, 30% 40%, 0% 25%);
+    background-image: url(https://img.freepik.com/free-photo/blue-foaming-waves-in-north-beach-in-nazare-portugal_1268-15934.jpg?size=626&ext=jpg&ga=GA1.1.886357741.1690532070&semt=sph);
+}
