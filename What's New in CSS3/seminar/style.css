@@ -1,7 +1,55 @@
+/* body {
+    color: red;
+}
+
+
+/* #test {
+    color: green;
+} 
+
+.dsc.txt {
+    color: black;
+}
+
+.dsc {
+    color: gold;
+}
+
 p {
+    color: blue;
+} */
+
+
+/* p {
     color: red;
 }
 
 p {
     color: blue;
+} */
+
+
+/* x x x x
+
+1 10 100 1000
+
+тег класс ID inline */
+
+
+/* .container>p {
+    color: red;
+} */
+
+
+/* a+p {
+    color: red;
+} */
+
+
+/* a~p {
+    color: red;
+} */
+
+p {
+    color: red!important;
 }
