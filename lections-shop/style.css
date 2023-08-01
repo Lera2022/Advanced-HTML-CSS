@@ -11,10 +11,6 @@ summary::-webkit-details-marker {
   display: none;
 }
 
-body {
-  font-family: "latoblack";
-}
-
 a {
   text-decoration: none;
   color: #000;
@@ -81,16 +77,30 @@ a {
   line-height: 29px;
 }
 
-.breadcrumbs__link {
+.breadcrumbs__ul {
+  list-style-type: none;
+  display: flex;
+}
+.breadcrumbs__li:not(:last-child)::after {
+  content: "/";
+  padding-left: 8px;
+  padding-right: 8px;
   color: #636363;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
 }
-.breadcrumbs__link_site {
+.breadcrumbs__li:last-child .breadcrumbs__link {
   color: #F16D7F;
   font-weight: 700;
+}
+.breadcrumbs__link {
+  color: #636363;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
 .filter {
