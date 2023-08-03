@@ -1,0 +1,58 @@
+html {
+    font-size: 16px; // 1rem === 16px
+}
+
+// .block {
+//     font-size: 20px; // 1rem == 20px
+// }
+.title {
+    // font-size: 2.8rem;
+    // font-size: 32px;    // 32 / 16 = 2rem
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+.heading {
+    // font-size: 1.6rem;
+    // font-size: 24px;
+    font-size: 1.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+}
+
+.text {
+    // font-size: 16px;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    // .title {
+    //     font-size: 28px;
+    // }
+    // .heading {
+    //     font-size: 21px;
+    // }
+    // .text {
+    //     font-size: 14px;
+    // }
+    html {
+        font-size: 14px; // 1rem === 14px
+    }
+}
+
+@media (max-width: 425px) {
+    // .title {
+    //     font-size: 24px;
+    // }
+    // .heading {
+    //     font-size: 18px;
+    // }
+    // .text {
+    //     font-size: 12px;
+    // }
+    html {
+        font-size: 12px; // 1rem === 12px
+    }
+}
